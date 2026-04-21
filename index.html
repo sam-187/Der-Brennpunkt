@@ -955,335 +955,152 @@
 </div>
 
 <script>
-const ARTICLES = {
-  "berlin-gefallen": {
-    kicker: "Titelstory",
-    title: "Berlin gefallen – symbolisch stark, praktisch unsicher",
-    meta: "21. April 2026 · Titelstory · 8 Min. Lesezeit",
-    img: "https://picsum.photos/seed/berlin1/1000/400",
-    lead: "Die Einnahme der Hauptstadt war schnell und bildwirksam. Neue Flaggen über dem Reichstag, klare Machtdemonstration. Doch die Kontrolle vor Ort ist weitaus brüchiger, als die Bilder vermuten lassen.",
-    text: `
-      <p>Es dauerte weniger als 72 Stunden. Die deutschen Verteidigungslinien an den Stadtgrenzen Berlins wurden in der Nacht zum 17. April durchbrochen – koordiniert, professionell, ohne die dramatischen Straßenkämpfe, die viele vorhergesagt hatten. Stattdessen: ein rascher Vormarsch, gezielte Besetzung strategischer Knotenpunkte, und dann das Bild, das seither in den sozialen Netzwerken kursiert – die neue Flagge über der Kuppel des Reichstags.</p>
-      <p>Für die Besatzer war es ein PR-Erfolg. Für die Bevölkerung war es eine Demütigung. Und für alle, die die Lage nüchtern analysieren, war es vor allem eines: ein erster Schritt, der noch nichts entscheidet.</p>
+(function() {
 
-      <h4>Kontrolle auf dem Papier, Chaos auf der Straße</h4>
-      <p>Die italienische Verwaltung hat in Berlin eine Struktur installiert, die nach außen hin Stabilität suggeriert. Bezirksbüros wurden umbesetzt, Kommunikationskanäle übernommen, ein Ausgangssperren-Regime für bestimmte Stunden eingeführt. Doch wer in den Bezirken Prenzlauer Berg, Neukölln oder Reinickendorf unterwegs ist, erlebt eine andere Realität.</p>
-      <p>Sabotageakte häufen sich, auch wenn offiziell nicht darüber berichtet wird. Stromausfälle, die sich zu gezielt auslösen lassen, als dass sie zufällig wären. Graffiti, die über Nacht ganze Fassaden bedecken. Soldaten, die nach Schichtende in Gruppen auftreten, weil Einzelne sich nicht mehr sicher fühlen. Der Widerstand ist nicht laut. Er ist still, ausdauernd und schwer zu fassen.</p>
-
-      <h4>Das Symbol und seine Kosten</h4>
-      <p>Dass ausgerechnet Berlin als erste Großstadt fiel, ist kein Zufall. Berlin ist mehr als eine Stadt – es ist das politische und emotionale Zentrum Deutschlands, beladen mit Geschichte, Symbolkraft und kollektivem Gedächtnis. Genau das macht die Besatzung für die Bevölkerung so unerträglich, und genau das macht sie für die Besatzer so aufwendig zu halten.</p>
-      <p>Schätzungen aus nicht-offiziellen Quellen gehen davon aus, dass die italienischen Kräfte in Berlin inzwischen mehr Ressourcen für die Aufrechterhaltung der Ordnung aufwenden als ursprünglich eingeplant. Jeder Akt des Widerstands bindet Personal, erzeugt Eskalationspotenzial und schwächt das Narrativ der „geordneten Übernahme".</p>
-
-      <h4>Was als nächstes kommt</h4>
-      <p>Die B.E.E.R.-Allianz hat Berlin explizit als prioritäres Rückeroberungsziel benannt. Nicht nur wegen seiner strategischen Lage, sondern wegen seiner symbolischen Bedeutung. Wenn Berlin befreit wird, ist das Signal für den Rest des Landes nicht zu überhören.</p>
-      <p>Bis dahin gilt: Berlin ist besetzt. Aber es ist nicht befriedet. Und das ist ein entscheidender Unterschied.</p>
-      <div class="fazit">→ Fazit der Redaktion: Berlin ist kein Beweis für die Stärke der Besatzer. Es ist ein Beweis dafür, wie schwer es ist, eine Stadt zu halten, die nicht kapituliert hat – nur besetzt wurde.</div>
-    `
-  },
-
-  "luxemburg-westen": {
-    kicker: "Politik",
-    title: "Der Westen in Luxemburger Hand – eine Fehlkalkulation mit Folgen",
-    meta: "21. April 2026 · Politik · 8 Min. Lesezeit",
-    img: "https://picsum.photos/seed/politics2/800/400",
-    lead: "Mit der Übernahme der westlichen und nordwestlichen Landesteile hat Luxemburg einen effizienten Verwaltungsapparat installiert – aber die Menschen hier lassen sich nicht wie eine Bilanz führen.",
-    text: `
-      <p>Luxemburg hat den westdeutschen Raum von Anfang an als Verwaltungsprojekt behandelt. Schnelle Strukturen, klare Zuständigkeiten, reibungslose Übernahme der Infrastruktur. Was auf dem Papier wie eine mustergültige Besatzungslogistik aussieht, erweist sich in der Praxis als fundamentales Missverständnis: Menschen sind keine Ressource, die sich reorganisieren lässt.</p>
-
-      <h4>Eine Finanzelite als Besatzungsmacht</h4>
-      <p>Die Wahrnehmung in der Bevölkerung ist eindeutig: Luxemburg wird nicht als Verbündeter oder Ordnungsmacht erlebt, sondern als verlängerter Arm einer europäischen Finanzelite. Das Großherzogtum, bekannt für seine Rolle als Steueroase und Bankenstandort, bringt in die Besatzung eine Verwaltungsmentalität mit, die auf Effizienz und Compliance setzt – nicht auf Dialog oder Akzeptanz.</p>
-      <p>In Städten wie Dortmund, Köln und Hannover hat sich unter der Oberfläche eine flächendeckende Ablehnung verfestigt. Nicht immer laut, nicht immer organisiert – aber tief. Geschäfte, die auf Anweisung bestimmte Waren nicht mehr führen sollen, beliefern heimlich Lagerpunkte des Widerstands. Verwaltungsangestellte, die formal ihren Dienst tun, leiten intern Informationen weiter.</p>
-
-      <h4>Das Knirschen im System</h4>
-      <p>Zwischen Luxemburg und der italienischen Verwaltung im Rest des Landes häufen sich die Reibungspunkte. Koordinationsversagen, gegenseitiges Misstrauen, eigenmächtige Entscheidungen. Das Feuergefecht bei Kassel ist nur das bislang sichtbarste Symptom einer tieferen Dysfunktion.</p>
-      <p>Luxemburg hat in mehreren Fällen strategische Positionen besetzt oder gehalten, die laut interner Aufteilung der italienischen Verwaltungszone zugehören. Ob aus Kalkül oder Unachtsamkeit – das Ergebnis ist dasselbe: Das ohnehin fragile Vertrauen zwischen den Besatzungsmächten erodiert weiter.</p>
-
-      <h4>Was das für den Widerstand bedeutet</h4>
-      <p>Je mehr Energie die Besatzer in interne Konflikte investieren, desto weniger können sie auf den Widerstand verwenden. Im Westen wächst das Netzwerk der organisierten Gegenbewegung schneller als erwartet – begünstigt durch die Tatsache, dass die Luxemburger Verwaltung schlicht nicht in der Lage ist, flächendeckend präsent zu sein.</p>
-      <p>Die B.E.E.R.-Allianz beobachtet die Entwicklung im Westen mit Interesse. Eine destabilisierte Besatzungsmacht ist ein leichteres Ziel.</p>
-      <div class="fazit">→ Das ist keine stabile Besatzung. Das ist ein schwelender Konflikt mit Ansage – und die Bevölkerung im Westen weiß das.</div>
-    `
-  },
-
-  "beer-allianz": {
-    kicker: "Strategie",
-    title: "B.E.E.R.-Allianz – Der Norden stellt sich auf",
-    meta: "21. April 2026 · Strategie · 6 Min. Lesezeit",
-    img: "https://picsum.photos/seed/society4/800/400",
-    lead: "Parallel zur Besatzung hat sich ein Gegengewicht gebildet. Deutschland, Schweden, Norwegen, Finnland, Irland und Großbritannien. Ein Block, der nicht auf Diplomatie setzt – sondern auf Rückeroberung.",
-    text: `
-      <p>Die B.E.E.R.-Allianz – British, European, Eastern Resistance – ist kein spontanes Bündnis. Sie wurde in den Wochen vor der Besatzung in kleinen Kreisen vorbereitet, von Akteuren, die früh erkannten, dass Diplomatie in diesem Konflikt keine hinreichende Antwort sein würde. Jetzt, wo die Besatzung Realität ist, tritt die Allianz aus dem Hintergrund.</p>
-
-      <h4>Sechs Länder, ein Ziel</h4>
-      <p>Deutschland, Schweden, Norwegen, Finnland, Irland und Großbritannien bilden den Kern. Was diese Länder verbindet: geografische Lage, geteilte Werte, und – entscheidend – eine komplementäre Ressourcenstruktur. Großbritannien bringt maritime Kapazitäten und Erfahrung mit asymmetrischer Kriegsführung. Die nordischen Länder liefern logistische Exzellenz, Kälteresistenz und gut ausgebildete Reservisten. Irland öffnet einen atlantischen Korridor. Deutschland selbst stellt Industriekapazität, technisches Know-how und Ortskenntnis.</p>
-      <p>Nach außen hält man sich noch bedeckt. Offizielle Erklärungen vermeidet man. Intern jedoch laufen die Vorbereitungen auf Hochtouren.</p>
-
-      <h4>Wilhelmshaven, Kiel, Bremerhaven – die Häfen als Schlüssel</h4>
-      <p>Unbestätigte Berichte über ungewöhnlich viele schwedische Frachter in Wilhelmshaven haben sich verdichtet. Was zunächst wie Handelsverkehr aussah, interpretieren Beobachter inzwischen als Ressourcentransfer: Ausrüstung, Munition, Kommunikationstechnik – eingelagert für eine Phase, die noch bevorsteht. Hafenarbeiter berichten von Nachtschichten unter erhöhter Sicherheit, versiegelten Containern, Anweisungen, keine Fotos zu machen.</p>
-      <p>In Kiel wurden nach unbestätigten Angaben Kasernen reaktiviert, die seit Jahren leer standen. In Bremerhaven sollen Vorräte für mindestens sechs Monate eingelagert sein.</p>
-
-      <h4>Die Frage nach dem Wann</h4>
-      <p>Innerhalb der Allianz existieren bereits detaillierte Angriffspläne. Es geht nur noch um den präzisen Zeitpunkt. Der 25. April gilt als Datum, bis zu dem alle Kräfte vollständig kriegsbereit sein sollen. Was danach geschieht, ist offiziell offen – aber die Richtung ist unmissverständlich.</p>
-      <p>Das Ziel ist nicht Stabilisierung. Das Ziel ist die vollständige Rückabwicklung der Besatzung – für ganz Deutschland, einschließlich Berlin.</p>
-      <div class="fazit">→ Die B.E.E.R.-Allianz ist kein Hilfsangebot. Sie ist ein Befreiungsversprechen – und sie macht Ernst.</div>
-    `
-  },
-
-  "countdown-25": {
-    kicker: "Analyse",
-    title: "25. April – Was der Countdown wirklich bedeutet",
-    meta: "21. April 2026 · Analyse · 5 Min. Lesezeit",
-    img: "https://picsum.photos/seed/kassel5/800/400",
-    lead: "Der 25. April ist kein willkürliches Datum. Er markiert den Moment, an dem aus Vorbereitung Ernst wird – und aus strategischer Geduld ein koordinierter Schlag.",
-    text: `
-      <p>Wer den 25. April als symbolisches Datum abtut, verkennt die militärische Logik dahinter. Ein Datum für vollständige Kriegsbereitschaft bedeutet nicht, dass an diesem Tag Schüsse fallen. Es bedeutet, dass ab diesem Zeitpunkt die Entscheidungsgewalt von Planungsstäben zu Kommandostrukturen übergeht. Die Vorbereitung endet. Die Ausführungsphase beginnt.</p>
-
-      <h4>Warum gerade der 25. April?</h4>
-      <p>Mehrere Faktoren sprechen für dieses Datum. Erstens: logistisch. Die Ressourcentransfers, die in den letzten Wochen über norddeutsche Häfen gelaufen sind, folgen einem zeitlichen Muster, das auf den 25. April als Zieldatum hindeutet. Secondly: meteorologisch. Die Wetterfenster für größere Operationen in Nordeuropa öffnen sich typischerweise Ende April, wenn Fröste wegfallen, Böden tragfähig werden und Sichtverhältnisse sich verbessern. Drittens: politisch. Je länger die Besatzung anhält, desto tiefer verfestigt sie sich – jeder Tag zählt.</p>
-
-      <h4>Das Schweigen der Allianz ist strategisch</h4>
-      <p>Dass die B.E.E.R.-Allianz keinen konkreten Angriffstermin kommuniziert, ist keine Schwäche, sondern Methode. Überraschung ist ein militärischer Vorteil. Zudem soll kein Datum kommuniziert werden, das den Besatzern Vorbereitungszeit ließe. Was nach innen klar ist, bleibt nach außen deliberately vage.</p>
-      <p>Einige Einheiten haben ihre sichtbaren Aktivitäten bewusst zurückgefahren. Wer derzeit wenig hört, sollte nicht auf Inaktivität schließen – sondern auf konzentrierte Bündelung von Kräften.</p>
-
-      <h4>Was die Bevölkerung tun kann</h4>
-      <p>Für die Menschen in den besetzten Gebieten gilt in dieser Phase: Ruhe bewahren, lokale Widerstandsnetzwerke stärken, Informationswege sichern. Die Allianz braucht keine Heldentaten der Zivilbevölkerung – sie braucht eine Bevölkerung, die standhält, informiert bleibt und den Besatzern keine Angriffsfläche bietet.</p>
-      <div class="fazit">→ Der 25. April ist nicht das Ende. Er ist der Beginn des Endes der Besatzung. Die Ruhe davor ist keine Stille – sie ist konzentrierte Kraft.</div>
-    `
-  },
-
-  "berlin-verwaltung": {
-    kicker: "Politik",
-    title: "Neue Verwaltung in Berlin – der Protest wächst täglich",
-    meta: "21. April 2026 · Politik · 5 Min. Lesezeit",
-    img: "https://picsum.photos/seed/politics2/800/400",
-    lead: "Die Besatzer versuchen, Normalität zu inszenieren. Verwaltungsstrukturen werden umbesetzt, Behörden neu geordnet, Pressemitteilungen verbreiten das Bild einer geordneten Übergabe. Doch auf den Straßen Berlins sieht die Realität anders aus.",
-    text: `
-      <p>Es ist das älteste Mittel jeder Besatzungsmacht: Normalität simulieren, bis sie zur Gewohnheit wird. In Berlin arbeitet die italienische Verwaltung mit Hochdruck daran, das Bild einer funktionierenden Übernahme zu erzeugen. Bezirksämter wurden neu besetzt, Schulen unter neue Aufsicht gestellt, ein kommunales Informationsblatt gedruckt, das die „neue Ordnung" positiv darstellt.</p>
-
-      <h4>Papier ist geduldig</h4>
-      <p>Was auf Papier nach Administration aussieht, scheitert an der gelebten Wirklichkeit. Berliner Beamte, die formal ihren Posten behalten haben, sabotieren intern: Akten werden „verlegt", Fristen verschleppt, Informationen nicht weitergegeben. In Schulen verweigern Lehrerinnen und Lehrer stillschweigend die Umsetzung neuer Lehrpläne. In Krankenhäusern werden Ressourcen auf eine Art und Weise „verwaltet", die den Besatzern systematisch weniger nützt als der einheimischen Bevölkerung.</p>
-      <p>Es ist kein lauter Protest. Es ist ein leiser, zäher, institutioneller Widerstand – und er kostet die Besatzer täglich Nerven und Ressourcen.</p>
-
-      <h4>Die Straße als Barometer</h4>
-      <p>Wer durch Berlins Bezirke geht, liest die Stimmung in kleinen Zeichen: Fenster, aus denen keine Flaggen der neuen Macht hängen. Cafés, die – obwohl es Auflagen gäbe – kein Besatzungspersonal bedienen. Wandparolen, die über Nacht erscheinen und tagsüber wieder übermalt werden – und die am nächsten Morgen wieder da sind. Der Rhythmus des stillen Widerstands hat seinen eigenen Takt.</p>
-
-      <h4>Wenn Normalität kippt</h4>
-      <p>Die kritische Frage für die Besatzer: Wie lange lässt sich der Schein der Normalität aufrechterhalten, bevor er offen in Protest umschlägt? Historische Parallelen zeigen: Meistens ist es ein einzelnes, scheinbar banales Ereignis, das die aufgestaute Spannung entlädt – ein Vorfall auf einem Marktplatz, eine Verhaftung die zu weit geht, eine Aussperrung die zu viele trifft.</p>
-      <div class="fazit">→ Die Verwaltung funktioniert. Der Widerstand auch. Und letzterer hat den längeren Atem.</div>
-    `
-  },
-
-  "wirtschaft-besatzung": {
-    kicker: "Wirtschaft",
-    title: "Wirtschaft unter Besatzung: Die Versorgungslage verschlechtert sich",
-    meta: "21. April 2026 · Wirtschaft · 7 Min. Lesezeit",
-    img: "https://picsum.photos/seed/economy3/800/400",
-    lead: "Lieferketten unterbrochen, Preise steigen, Lager leeren sich. Was vor zwei Wochen noch wie eine vorübergehende Störung aussah, nimmt die Konturen einer strukturellen Versorgungskrise an.",
-    text: `
-      <p>Die Besatzung hat die deutschen Lieferketten an mehreren Stellen gleichzeitig getroffen. Grenzübergänge, die unter neue Kontrolle gestellt wurden, verlangsamen den Warenverkehr erheblich. Transportunternehmen, deren Fahrer die Kontrollen umgehen oder verzögern, büßen Effizienz ein. Lager, die eigentlich für reibungslosen Durchlauf konzipiert sind, stehen still oder halbvoll.</p>
-
-      <h4>Was knapp wird – und was das bedeutet</h4>
-      <p>Erste Engpässe betreffen Kraftstoffe, bestimmte Medikamente und elektronische Bauteile. Supermärkte in besetzten Gebieten berichten von unregelmäßigen Lieferungen; was heute voll im Regal steht, kann morgen fehlen. Die Preissteigerungen sind noch moderat – aber der Trend ist eindeutig nach oben.</p>
-      <p>Besonders betroffen sind ländliche Regionen, die weniger Einrichtungen haben und auf regelmäßige Versorgungsfahrten angewiesen sind. In Städten dämpft das breite Handelsangebot die unmittelbaren Auswirkungen – aber auch dort ist der Alltag teurer und unsicherer geworden.</p>
-
-      <h4>Wer profitiert – und warum das kein gutes Zeichen ist</h4>
-      <p>Die Besatzungsmächte versuchen, die Versorgung strategisch zu nutzen: Gebiete mit kooperativer Bevölkerung erhalten bevorzugten Zugang zu Ressourcen, während kritische Bezirke unter Druck gesetzt werden. Das klassische Zuckerbrot-und-Peitsche-Modell. Kurzfristig erzeugt es Anpassung – langfristig vertieft es Ressentiments.</p>
-      <p>Für die Widerstandsstrukturen ist die Wirtschaftslage gleichzeitig Belastung und Gelegenheit. Parallele Versorgungsnetze, die unabhängig von der Besatzungsverwaltung funktionieren, stärken die soziale Bindung und die Glaubwürdigkeit des Widerstands.</p>
-
-      <h4>Die mittelfristige Perspektive</h4>
-      <p>Ökonomen, die anonym sprechen, gehen davon aus, dass die Versorgungslage in den nächsten vier bis sechs Wochen deutlich kritischer wird – es sei denn, die Besatzung endet oder die Lieferketten normalisieren sich unter neuen Strukturen. Beides ist unwahrscheinlich. Das erste, weil militärische Operationen Zeit brauchen. Das zweite, weil keine Besatzungsmacht ein Interesse daran hat, die Wirtschaft des besetzten Landes dauerhaft zu stärken.</p>
-      <div class="fazit">→ Die Versorgungslage ist kein Nebenaspekt der Besatzung. Sie ist ein Machtinstrument – und zugleich eine der größten Schwachstellen der Besatzer, wenn die Bevölkerung alternative Strukturen aufbaut.</div>
-    `
-  },
-
-  "ziviler-widerstand": {
-    kicker: "Gesellschaft",
-    title: "Ziviler Widerstand: Wie sich Nachbarschaften neu erfinden",
-    meta: "20. April 2026 · Gesellschaft · 9 Min. Lesezeit",
-    img: "https://picsum.photos/seed/society4/800/400",
-    lead: "Geheime Netzwerke, selbst gedruckte Zeitungen, stille Solidarität auf Hinterhöfen und in Kellern. Deutschland hält zusammen – oft unsichtbar, immer hartnäckig.",
-    text: `
-      <p>Es gibt keinen zentralen Befehl. Es gibt keine große Widerstandsorganisation mit Hauptquartier und Mitgliedsausweisen. Was in den besetzten Teilen Deutschlands passiert, ist organischer, dezentraler und damit schwerer zu fassen als jede strukturierte Opposition: Es sind Nachbarschaften, die sich selbst helfen. Kirchengemeinden, die mehr tun als beten. Sportvereine, deren Treffen einen zweiten Zweck haben.</p>
-
-      <h4>Die Untergrundzeitung als Symbol</h4>
-      <p>In mindestens sieben deutschen Städten kursieren inzwischen handgefertigte oder selbst gedruckte Informationsblätter, die unabhängig von den Besatzungsmedien berichten. Inhalt: aktuelle Lageinformationen, Anlaufstellen für Hilfe, kurze Berichte aus anderen Regionen. Aufmachung: schlicht, manchmal kaum leserlich. Wirkung: enorm. Diese Blätter werden von Hand zu Hand weitergereicht, in Briefkästen gesteckt, unter Türen geschoben. Sie sind das Gegenteil von viraler Verbreitung – und genau deshalb schwer zu unterbinden.</p>
-      <p>Der Brennpunkt verfolgt dieses Netzwerk aufmerksam. Wir haben mit drei Menschen gesprochen, die anonym bleiben wollen und an solchen Blättern mitwirken. Ihre Aussage: „Es geht nicht darum, Helden zu sein. Es geht darum, dass die Leute nicht vergessen, dass sie eine Gemeinschaft sind."</p>
-
-      <h4>Parallelstrukturen des Alltags</h4>
-      <p>Jenseits der Informationsarbeit entstehen praktische Hilfsstrukturen. Lebensmitteltausch zwischen Haushalten. Inoffizielle Apothekennetzwerke, die Medikamente verteilen, bevor sie in die Lager der Besatzungsverwaltung wandern. Handwerker, die Reparaturen im Tausch gegen Naturalien erledigen, ohne Papiere zu hinterlassen. Eine Schattenwirtschaft des gegenseitigen Vertrauens.</p>
-      <p>Was das für die Besatzung bedeutet: Sie können Gebäude besetzen und Institutionen übernehmen. Aber sie können nicht die sozialen Bande einer Gemeinschaft zerstören, die gelernt hat, sich selbst zu versorgen.</p>
-
-      <h4>Die psychologische Dimension</h4>
-      <p>Kein Widerstand überlebt ohne Hoffnung. Was die Netzwerke leisten, geht über Logistik hinaus: Sie halten das Gefühl am Leben, dass die Normalität zurückkommt. Dass die Besatzung ein Zwischenzustand ist, kein Endzustand. In historischen Besatzungssituationen war genau dieser psychologische Kern das Entscheidende – die Frage, ob die Bevölkerung glaubt, dass es sich lohnt, durchzuhalten.</p>
-      <div class="fazit">→ Die eigentliche Stärke Deutschlands liegt nicht in der B.E.E.R.-Allianz allein. Sie liegt in den Millionen kleinen Entscheidungen täglich: nicht zu kooperieren, zu teilen, zu schweigen, wo Schweigen Widerstand ist.</div>
-    `
-  },
-
-  "kassel-gefecht": {
-    kicker: "Reportage",
-    title: "Feuergefecht bei Kassel – wenn Verbündete zu Feinden werden",
-    meta: "21. April 2026 · Reportage · 10 Min. Lesezeit",
-    img: "https://picsum.photos/seed/kassel5/800/400",
-    lead: "In der Nacht zum 19. April kam es im Raum Kassel zu einem Feuergefecht zwischen luxemburgischen und italienischen Einheiten. Was wie ein Irrtum aussah, war möglicherweise Kalkül.",
-    text: `
-      <p>Kassel liegt genau an der Schnittstelle zwischen der luxemburgischen und der italienischen Besatzungszone. Eine Stadt, die eigentlich in der Verantwortung der Italiener liegt – aber geografisch so günstig positioniert ist, dass luxemburgische Einheiten sie schon seit Wochen mit wachsendem Interesse betrachten.</p>
-
-      <h4>Der Auslöser in der Nacht</h4>
-      <p>In der Nacht zum 19. April besetzte eine luxemburgische Sicherungseinheit eine strategisch wichtige Bahnunterführung im Kasseler Norden. Die Unterführung liegt laut gültiger interner Aufteilungsvereinbarung eindeutig in der italienischen Zone. Die anrückenden italienischen Einheiten, die diese Position routinemäßig inspizieren wollten, wurden dort nicht erwartet – und das nicht im freundlichen Sinne.</p>
-      <p>Wer zuerst geschossen hat, ist ungeklärt. Offiziell schweigen beide Seiten. Aus mehreren unabhängigen Quellen, die sich vor Ort befanden, rekonstruieren wir: Es gab zunächst verbale Konfrontation, dann Warnschüsse, dann gezieltes Feuer. Auf beiden Seiten gibt es Verwundete. Über Tote gibt es widersprüchliche Berichte.</p>
-
-      <h4>Zufall oder Kalkül?</h4>
-      <p>Die entscheidende Frage ist nicht, ob es Verletzte gab – sondern warum die luxemburgische Einheit dort war. Drei Interpretationen kursieren. Erstens: administrativer Irrtum, falsche Koordinaten. Zweitens: bewusstes Testen, wie weit man gehen kann, bevor Italien reagiert. Drittens: gezielte Aktion, um eine wichtige Nachschubroute Italiens zu blockieren, die durch diese Unterführung verläuft.</p>
-      <p>Die Hinweise verdichten sich auf Version drei. Die Unterführung liegt direkt an einer Zufahrt, die für die Versorgung italienischer Einheiten im mitteldeutschen Raum zentral ist. Wer sie kontrolliert, kann den Nachschub verzögern oder unterbinden. Und Luxemburg hat in den vergangenen Wochen mehrfach ähnliche „Irrtümer" begangen – stets an strategisch relevanten Punkten.</p>
-
-      <h4>Was Kassel verrät</h4>
-      <p>Das Feuergefecht ist kein Ausreißer. Es ist ein Symptom. Die Besatzungsmächte, die nach außen hin eine gemeinsame Front präsentieren, misstrauen sich intern tief. Ressourcen werden zurückgehalten, Informationen nicht geteilt, Gebiete eigenmächtig erweitert. Das Bündnis der Besatzer hält, solange es allen nützt – aber die Eigeninteressen dominieren zunehmend.</p>
-      <p>Für den Widerstand ist das eine bedeutende Entwicklung: Wenn die Besatzer aufeinander schießen, sind ihre Ressourcen in zwei Richtungen gebunden. Das Zeitfenster für einen koordinierten Gegenschlag ist so günstig wie nie.</p>
-
-      <h4>Stimme aus der Bevölkerung</h4>
-      <blockquote>„Erst besetzen se uns einfach so, als wär'n wir 'ne herrenlose Immobilie. Und jetzt schießen se sich auch noch gegenseitig über'n Haufen – mitten in Kassel. Wenn dat mal kein gutes Zeichen is, dann weiß ich auch nich. Die kriegen ja nich mal ihren eigenen Laden in den Griff. Vielleicht sollten wir denen mal zeigen, wem das hier eigentlich gehört."</blockquote>
-      <div class="fazit">→ Die entscheidende Frage lautet nicht mehr, ob die Besatzer sich misstrauen. Sie lautet, wann der Konflikt zwischen ihnen offen ausbricht – und wie der Widerstand dieses Fenster nutzt.</div>
-    `
-  },
-
-  "besatzung-zerbricht": {
-    kicker: "Analyse",
-    title: "Warum die Besatzungsstruktur von innen zerbricht",
-    meta: "21. April 2026 · Analyse · 6 Min. Lesezeit",
-    img: "https://picsum.photos/seed/kassel5/800/400",
-    lead: "Was wie ein stabiles System aussieht, hat tiefe Risse. Die strukturellen Widersprüche der Doppelbesatzung machen eine langfristige Stabilisierung nahezu unmöglich.",
-    text: `
-      <p>Keine Besatzung hält ewig. Aber manche enden schneller als erwartet – nicht weil der Widerstand sie besiegt, sondern weil die Besatzer an ihren eigenen Widersprüchen scheitern. Die aktuelle Konstellation in Deutschland hat alle Merkmale einer solchen Situation.</p>
-
-      <h4>Zwei Mächte, eine Zone – das Grundproblem</h4>
-      <p>Die Aufteilung Deutschlands in eine luxemburgische und eine italienische Besatzungszone war von Anfang an ein politischer Kompromiss, kein militärisch durchdachter Plan. Die Grenze zwischen beiden Zonen verläuft quer durch Infrastruktur, Versorgungsnetze und Kommunikationssysteme, die für eine koordinierte Verwaltung gedacht waren – nicht für eine geteilte.</p>
-      <p>Jeder Verwaltungsakt, der Zusammenarbeit erfordert, wird zum Verhandlungsprozess. Jede Ressource, die beiden Zonen dient, wird zum Streitobjekt. Jede strategische Position, die zwischen den Zonen liegt, ist potenzielle Eskalation.</p>
-
-      <h4>Die Erosion des Vertrauens</h4>
-      <p>Interne Berichte, die dem Brennpunkt vorliegen, beschreiben ein Koordinationsproblem, das sich seit Beginn der Besatzung verschärft. Gemeinsam geplante Operationen werden einseitig abgeändert. Informationen über Widerstandsaktivitäten werden nicht geteilt. Entscheidungen, die eigentlich abgestimmt werden sollten, werden vollendete Tatsachen.</p>
-      <p>Das Feuergefecht bei Kassel ist der bisher drastischste Ausdruck dieser Entwicklung – aber bei weitem nicht der erste Vorfall. Es gab Zwischenfälle bei Hannover, Erfurt und Dortmund, die intern abgewickelt wurden und nicht an die Öffentlichkeit gelangten.</p>
-
-      <h4>Was das für die Stabilität bedeutet</h4>
-      <p>Eine Besatzungsstruktur, die intern bröckelt, verliert ihre Abschreckungswirkung. Die Bevölkerung bemerkt die Risse – und testet sie. Widerstandsgruppen passen ihre Taktik an, indem sie gezielt die Spaltlinien zwischen den Besatzern ausnutzen. Aktionen in Grenzbereichen, die beide Seiten zur Reaktion zwingen, ohne dass sie sich koordinieren können.</p>
-      <div class="fazit">→ Die Besatzungsstruktur wird nicht durch einen großen Schlag fallen. Sie wird durch tausend kleine Risse mürbe – von innen, von außen, und durch die eigene Dysfunktion.</div>
-    `
-  },
-
-  "geruechtekueche": {
-    kicker: "Hintergrund",
-    title: "Gerüchteküche: Was steckt wirklich hinter den Angriffsplänen?",
-    meta: "21. April 2026 · Hintergrund · 7 Min. Lesezeit",
-    img: "https://picsum.photos/seed/opinion6/800/400",
-    lead: "Aus gut informierten Kreisen sickern Details durch, die ein klares Bild ergeben: Die B.E.E.R.-Allianz ist weiter als offiziell kommuniziert. Der Angriff ist nicht geplant – er ist vorbereitet.",
-    text: `
-      <p>Was Gerüchte von Fakten unterscheidet, ist oft nur die Zeit. Vieles, was heute als Spekulation gilt, wird in wenigen Wochen als Tatsache bestätigt. Der Brennpunkt filtert aus dem Rauschen, was sich durch mehrere unabhängige Quellen deckt – ohne die Identität von Informanten zu gefährden.</p>
-
-      <h4>Die Angriffspläne existieren – und sind detailliert</h4>
-      <p>Mehrere Quellen berichten übereinstimmend: Innerhalb der B.E.E.R.-Allianz liegen bereits vollständig ausgearbeitete Operationspläne für die Rückeroberung besetzter Gebiete vor. Es handelt sich nicht um grobe Skizzen, sondern um konkrete Zeitpläne, Kräftedispositionen und Zuständigkeiten. Was diskutiert wird, ist nicht mehr das Ob, sondern ausschließlich das Wann und unter welchen Bedingungen.</p>
-      <p>Einige Einheiten haben ihre sichtbaren Aktivitäten bewusst zurückgefahren – vermutlich, um Kräfte für einen koordinierten Schlag zu bündeln. Was nach außen wie Inaktivität aussieht, ist innen konzentrierte Vorbereitungsarbeit.</p>
-
-      <h4>Wilhelmshaven: mehr als Handel</h4>
-      <p>Unbestätigte Berichte über schwedische Frachter in Wilhelmshaven haben sich durch mehrere Quellen verdichtet. Ein Hafenarbeiter, der anonym spricht: „Das ist nicht normal. Die Frachter kommen nachts, werden unter erhöhter Sicherheit entladen, und keiner darf Fotos machen. Das ist kein Handel." Vorräte für mindestens sechs Monate sollen bereits eingelagert sein – was auf eine Planung für eine längere Operationsphase hindeutet.</p>
-
-      <h4>Die Spannungen zwischen den Besatzern als Faktor</h4>
-      <p>Innerhalb der B.E.E.R.-Allianz gilt das wachsende Misstrauen zwischen Luxemburg und Italien als strategischer Vorteil. Ein Konflikt, der die Besatzer zwingt, Kräfte und Aufmerksamkeit intern zu binden, ist für jeden Angreifer ein Geschenk. Die Timing-Überlegungen innerhalb der Allianz berücksichtigen explizit die Tiefe der Spaltung zwischen den Besatzungsmächten.</p>
-      <p>Sollte die Zerrissenheit sich weiter bestätigen – und die Signale aus Kassel sind unmissverständlich – wäre das Zeitfenster für einen Gegenschlag so günstig wie nie seit Beginn der Besatzung.</p>
-      <div class="fazit">→ Was in der Gerüchteküche siedet, ist oft nur der Vorlauf dessen, was bald Geschichte ist. Die Hinweise verdichten sich: Es ist nicht die Frage ob – es ist die Frage wann.</div>
-    `
-  },
-
-  "einschaetzung": {
-    kicker: "Meinung",
-    title: "Unsere Einschätzung: Das ist erst der Anfang",
-    meta: "21. April 2026 · Kommentar der Redaktion · 4 Min. Lesezeit",
-    img: "https://picsum.photos/seed/opinion6/800/400",
-    lead: "Deutschland wurde in wenigen Tagen neu aufgeteilt. Berlin ist gefallen. Der Widerstand formiert sich. Wer glaubt, das Schlimmste sei vorbei, irrt. Wer glaubt, das Beste komme noch, liegt richtig.",
-    text: `
-      <p>Wir schreiben diese Zeilen aus der Überzeugung, dass Klarheit wichtiger ist als Beruhigung. Die Lage ist ernst. Die Besatzung ist real. Und die kommenden Wochen werden härter, bevor sie besser werden.</p>
-      <p>Aber: Dieses Konstrukt ist nicht stabil. Es war von Anfang an eine Provokation auf Zeit – und die Zeit läuft. Nicht für uns. Für die Besatzer.</p>
-
-      <h4>Was wir wissen</h4>
-      <p>Die B.E.E.R.-Allianz ist keine leere Drohung. Die Vorbereitungen sind real, die Ressourcen werden gebündelt, der Wille zur Rückeroberung ist ungebrochen. Das Feuergefecht bei Kassel zeigt, dass die Besatzungsmächte ihre eigene Koalition nicht im Griff haben. Und die Bevölkerung – in Berlin, im Ruhrgebiet, in Bayern, überall – hat nicht aufgehört, sich als Gemeinschaft zu begreifen.</p>
-
-      <h4>Was wir nicht wissen</h4>
-      <p>Wir wissen nicht, wann genau die Wende kommt. Wir wissen nicht, wie viel noch verlangt wird, bevor sie kommt. Wir wissen nicht, ob der 25. April der entscheidende Moment ist oder nur ein weiterer Schritt auf dem Weg dahin. Ehrlichkeit bedeutet: diese Unsicherheit auszuhalten, ohne sich von ihr lähmen zu lassen.</p>
-
-      <h4>Was das bedeutet</h4>
-      <p>Dieses System ist nicht stabil – das ist keine Hoffnung, das ist eine Analyse. Besatzungen, die auf Zwang statt Akzeptanz basieren, die intern zerstritten sind und die sich gegen eine organisierte Gegenbewegung stemmen müssen, haben eine begrenzte Halbwertzeit. Die Geschichte ist voll davon.</p>
-      <blockquote>„Besetzt heißt nicht befriedet. Und befriedet heißt nicht besiegt. Deutschland ist besetzt. Es ist nicht besiegt."</blockquote>
-      <p>Wir berichten weiter. Nah dran. Ungefiltert.</p>
-      <div class="fazit">→ Das hier ist Ausgabe 1. Es wird weitere geben – weil es etwas zu berichten gibt, weil der Widerstand lebt, und weil die Wahrheit zirkulieren muss.</div>
-    `
-  },
-
-  "frontstimme": {
-    kicker: "Frontstimme",
-    title: "„Die kriegen ihren Laden nicht in den Griff – vielleicht ist das unsere Chance"",
-    meta: "21. April 2026 · Frontstimme · 6 Min. Lesezeit",
-    img: "https://picsum.photos/seed/people7/800/400",
-    lead: "Menschen in besetzten Gebieten sprechen offen – wenn auch anonym. Über Hoffnung, Angst, Alltag unter Besatzung. Und über den Moment, in dem Ohnmacht in Entschlossenheit umschlägt.",
-    text: `
-      <p>Wir haben in den vergangenen Tagen mit Menschen aus verschiedenen besetzten Regionen gesprochen – per verschlüsselter Verbindung, per Brief, über Mittelsmänner. Keiner wollte namentlich genannt werden. Alle wollten, dass ihre Stimme gehört wird.</p>
-
-      <h4>Aus dem Ruhrgebiet, 58 Jahre, Schlosser</h4>
-      <blockquote>„Erst besetzen se uns einfach so, als wär'n wir 'ne herrenlose Immobilie. Und jetzt schießen se sich auch noch gegenseitig über'n Haufen – mitten in Kassel. Wenn dat mal kein gutes Zeichen is, dann weiß ich auch nich. Die kriegen ja nich mal ihren eigenen Laden in den Griff. Vielleicht sollten wir denen mal zeigen, wem das hier eigentlich gehört."</blockquote>
-
-      <h4>Aus Berlin-Neukölln, 34 Jahre, Lehrerin</h4>
-      <blockquote>„Ich unterrichte weiter. Ich sage den Kindern nicht, was die neuen Materialien sagen. Ich sage ihnen, was ich weiß. Was wahr ist. Was war. Solange ich das tun kann, trage ich meinen Teil bei. Das klingt klein. Aber wenn das alle machen, ist es nicht klein."</blockquote>
-
-      <h4>Aus Köln, 72 Jahre, Rentnerin</h4>
-      <blockquote>„Ich habe den Krieg nicht erlebt – nur seine Nachfolgen. Aber ich kenne die Geschichten. Wie es war. Wie die Leute durchgehalten haben. Das ist kein Rezept, das ich empfehlen will. Aber es ist ein Beweis, dass Menschen mehr aushalten können, als sie denken. Und dass sie gewinnen können, wenn sie zusammenhalten."</blockquote>
-
-      <h4>Aus Hamburg, 41 Jahre, Fahrerin</h4>
-      <blockquote>„Ich fahre täglich durch die Stadt. Ich sehe, was ich sehe. Ich bringe mit, was ich kann. Ich frage nicht, wozu es gebraucht wird. Ich vertraue darauf, dass die richtigen Leute es wissen. Das ist alles, was ich tun kann. Aber ich tue es jeden Tag."</blockquote>
-
-      <h4>Aus dem Sauerland, 29 Jahre, Bauer</h4>
-      <blockquote>„Auf dem Land merkt man das anders als in der Stadt. Leiser. Aber genau so real. Wir teilen, was wir haben. Mit den Nachbarn, mit denen, die es brauchen. Das machen wir immer so. Besatzung ändert das nicht. Die können Städte einnehmen. Mein Hof nicht."</blockquote>
-
-      <div class="fazit">→ Deutschland spricht. Leise, aber klar. Die Stimmen aus den besetzten Gebieten zeigen: Was besetzt wurde, ist ein Land – nicht seine Menschen.</div>
-    `
-  }
+var ARTICLES = {
+"berlin-gefallen": {
+  kicker: "Titelstory",
+  title: "Berlin gefallen – symbolisch stark, praktisch unsicher",
+  meta: "21. April 2026 · Titelstory · 8 Min. Lesezeit",
+  img: "https://picsum.photos/seed/berlin1/1000/400",
+  lead: "Die Einnahme der Hauptstadt war schnell und bildwirksam. Neue Flaggen über dem Reichstag, klare Machtdemonstration. Doch die Kontrolle vor Ort ist weitaus brüchiger, als die Bilder vermuten lassen.",
+  text: "<p>Es dauerte weniger als 72 Stunden. Die deutschen Verteidigungslinien an den Stadtgrenzen Berlins wurden in der Nacht zum 17. April durchbrochen – koordiniert, professionell, ohne die dramatischen Straßenkämpfe, die viele vorhergesagt hatten. Stattdessen: ein rascher Vormarsch, gezielte Besetzung strategischer Knotenpunkte – und dann das Bild, das seither die Runden macht: die neue Flagge über der Kuppel des Reichstags.</p><p>Für die Besetzer war es ein PR-Erfolg. Für die Bevölkerung eine Demütigung. Und für alle, die die Lage nüchtern analysieren, war es vor allem eines: ein erster Schritt, der noch nichts entscheidet.</p><h4>Kontrolle auf dem Papier, Chaos auf der Straße</h4><p>Die italienische Verwaltung hat in Berlin eine Struktur installiert, die nach außen hin Stabilität suggeriert. Bezirksbüros wurden umbesetzt, Kommunikationskanäle übernommen, ein Ausgangssperren-Regime für bestimmte Stunden eingeführt. Doch wer in den Bezirken Prenzlauer Berg, Neukölln oder Reinickendorf unterwegs ist, erlebt eine andere Realität. Sabotageakte häufen sich. Stromausfälle, die sich zu gezielt auslösen lassen, als dass sie zufällig wären. Graffiti, die über Nacht ganze Fassaden bedecken. Soldaten, die nach Schichtende in Gruppen auftreten, weil Einzelne sich nicht mehr sicher fühlen.</p><h4>Das Symbol und seine Kosten</h4><p>Dass ausgerechnet Berlin als erste Großstadt fiel, ist kein Zufall. Berlin ist mehr als eine Stadt – es ist das politische und emotionale Zentrum Deutschlands, beladen mit Geschichte, Symbolkraft und kollektivem Gedächtnis. Geschätzungen aus nicht-offiziellen Quellen gehen davon aus, dass die italienischen Kräfte in Berlin inzwischen mehr Ressourcen für die Aufrechterhaltung der Ordnung aufwenden als ursprünglich eingeplant.</p><h4>Was als nächstes kommt</h4><p>Die B.E.E.R.-Allianz hat Berlin explizit als prioritäres Rückeroberungsziel benannt. Wenn Berlin befreit wird, ist das Signal für den Rest des Landes nicht zu überhören.</p><div class='fazit'>→ Fazit der Redaktion: Berlin ist besetzt. Aber es ist nicht befriedet. Und das ist ein entscheidender Unterschied.</div>"
+},
+"luxemburg-westen": {
+  kicker: "Politik",
+  title: "Der Westen in Luxemburger Hand – eine Fehlkalkulation mit Folgen",
+  meta: "21. April 2026 · Politik · 8 Min. Lesezeit",
+  img: "https://picsum.photos/seed/politics2/800/400",
+  lead: "Mit der Übernahme der westlichen und nordwestlichen Landesteile hat Luxemburg einen effizienten Verwaltungsapparat installiert – aber die Menschen hier lassen sich nicht wie eine Bilanz führen.",
+  text: "<p>Luxemburg hat den westdeutschen Raum von Anfang an als Verwaltungsprojekt behandelt. Was auf dem Papier wie eine mustergültige Besatzungslogistik aussieht, erweist sich in der Praxis als fundamentales Missverständnis: Menschen sind keine Ressource, die sich reorganisieren lässt.</p><h4>Eine Finanzelite als Besatzungsmacht</h4><p>Die Wahrnehmung in der Bevölkerung ist eindeutig: Luxemburg wird nicht als Verbündeter oder Ordnungsmacht erlebt, sondern als verlängerter Arm einer europäischen Finanzelite. In Städten wie Dortmund, Köln und Hannover hat sich unter der Oberfläche eine flächendeckende Ablehnung verfestigt. Nicht immer laut, nicht immer organisiert – aber tief. Geschäfte beliefern heimlich Lagerpunkte des Widerstands. Verwaltungsangestellte leiten intern Informationen weiter.</p><h4>Das Knirschen im System</h4><p>Zwischen Luxemburg und der italienischen Verwaltung häufen sich die Reibungspunkte. Koordinationsversagen, gegenseitiges Misstrauen, eigenmächtige Entscheidungen. Das Feuergefecht bei Kassel ist nur das bislang sichtbarste Symptom einer tieferen Dysfunktion. Luxemburg hat in mehreren Fällen strategische Positionen besetzt oder gehalten, die laut interner Aufteilung der italienischen Verwaltungszone zugehören.</p><h4>Was das für den Widerstand bedeutet</h4><p>Je mehr Energie die Besetzer in interne Konflikte investieren, desto weniger können sie auf den Widerstand verwenden. Im Westen wächst das Netzwerk der organisierten Gegenbewegung schneller als erwartet.</p><div class='fazit'>→ Das ist keine stabile Besatzung. Das ist ein schwelender Konflikt mit Ansage – und die Bevölkerung im Westen weiß das.</div>"
+},
+"beer-allianz": {
+  kicker: "Strategie",
+  title: "B.E.E.R.-Allianz – Der Norden stellt sich auf",
+  meta: "21. April 2026 · Strategie · 6 Min. Lesezeit",
+  img: "https://picsum.photos/seed/society4/800/400",
+  lead: "Parallel zur Besatzung hat sich ein Gegengewicht gebildet. Deutschland, Schweden, Norwegen, Finnland, Irland und Großbritannien. Ein Block, der nicht auf Diplomatie setzt – sondern auf Rückeroberung.",
+  text: "<p>Die B.E.E.R.-Allianz wurde in den Wochen vor der Besatzung in kleinen Kreisen vorbereitet, von Akteuren, die früh erkannten, dass Diplomatie in diesem Konflikt keine hinreichende Antwort sein würde. Jetzt, wo die Besatzung Realität ist, tritt die Allianz aus dem Hintergrund.</p><h4>Sechs Länder, ein Ziel</h4><p>Deutschland, Schweden, Norwegen, Finnland, Irland und Großbritannien bilden den Kern. Großbritannien bringt maritime Kapazitäten und Erfahrung mit asymmetrischer Kriegsführung. Die nordischen Länder liefern logistische Exzellenz und gut ausgebildete Reservisten. Irland öffnet einen atlantischen Korridor. Deutschland selbst stellt Industriekapazität, technisches Know-how und Ortskenntnis.</p><h4>Wilhelmshaven, Kiel, Bremerhaven – die Häfen als Schlüssel</h4><p>Unbestätigte Berichte über ungewöhnlich viele schwedische Frachter in Wilhelmshaven haben sich verdichtet. Was zunächst wie Handelsverkehr aussah, interpretieren Beobachter inzwischen als Ressourcentransfer: Ausrüstung, Munition, Kommunikationstechnik – eingelagert für eine Phase, die noch bevorsteht. Hafenarbeiter berichten von Nachtschichten unter erhöhter Sicherheit, versiegelten Containern.</p><h4>Die Frage nach dem Wann</h4><p>Innerhalb der Allianz existieren bereits detaillierte Angriffspläne. Der 25. April gilt als Datum, bis zu dem alle Kräfte vollständig kriegsbereit sein sollen. Das Ziel ist nicht Stabilisierung. Das Ziel ist die vollständige Rückabwicklung der Besatzung – für ganz Deutschland.</p><div class='fazit'>→ Die B.E.E.R.-Allianz ist kein Hilfsangebot. Sie ist ein Befreiungsversprechen – und sie macht Ernst.</div>"
+},
+"countdown-25": {
+  kicker: "Analyse",
+  title: "25. April – Was der Countdown wirklich bedeutet",
+  meta: "21. April 2026 · Analyse · 5 Min. Lesezeit",
+  img: "https://picsum.photos/seed/kassel5/800/400",
+  lead: "Der 25. April ist kein willkürliches Datum. Er markiert den Moment, an dem aus Vorbereitung Ernst wird – und aus strategischer Geduld ein koordinierter Schlag.",
+  text: "<p>Ein Datum für vollständige Kriegsbereitschaft bedeutet nicht, dass an diesem Tag Schüsse fallen. Es bedeutet, dass ab diesem Zeitpunkt die Entscheidungsgewalt von Planungsstäben zu Kommandostrukturen übergeht. Die Vorbereitung endet. Die Ausführungsphase beginnt.</p><h4>Warum gerade der 25. April?</h4><p>Mehrere Faktoren sprechen für dieses Datum. Logistisch: Die Ressourcentransfers über norddeutsche Häfen folgen einem zeitlichen Muster, das auf den 25. April hindeutet. Meteorologisch: Die Wetterfenster für größere Operationen in Nordeuropa öffnen sich Ende April, wenn Fröste wegfallen, Böden tragfähig werden. Politisch: Je länger die Besatzung anhält, desto tiefer verfestigt sie sich.</p><h4>Das Schweigen der Allianz ist strategisch</h4><p>Dass die B.E.E.R.-Allianz keinen konkreten Angriffstermin kommuniziert, ist keine Schwäche, sondern Methode. Überraschung ist ein militärischer Vorteil. Einige Einheiten haben ihre sichtbaren Aktivitäten bewusst zurückgefahren – konzentrierte Bündelung von Kräften, nicht Inaktivität.</p><h4>Was die Bevölkerung tun kann</h4><p>Für die Menschen in den besetzten Gebieten gilt in dieser Phase: Ruhe bewahren, lokale Widerstandsnetzwerke stärken, Informationswege sichern. Die Allianz braucht eine Bevölkerung, die standhält, informiert bleibt und den Besatzern keine Angriffsfläche bietet.</p><div class='fazit'>→ Der 25. April ist nicht das Ende. Er ist der Beginn des Endes der Besatzung.</div>"
+},
+"berlin-verwaltung": {
+  kicker: "Politik",
+  title: "Neue Verwaltung in Berlin – der Protest wächst täglich",
+  meta: "21. April 2026 · Politik · 5 Min. Lesezeit",
+  img: "https://picsum.photos/seed/politics2/800/400",
+  lead: "Die Besetzer versuchen, Normalität zu inszenieren. Doch auf den Straßen Berlins sieht die Realität anders aus.",
+  text: "<p>Es ist das älteste Mittel jeder Besatzungsmacht: Normalität simulieren, bis sie zur Gewohnheit wird. In Berlin arbeitet die italienische Verwaltung mit Hochdruck daran. Bezirksamter wurden neu besetzt, Schulen unter neue Aufsicht gestellt, ein kommunales Informationsblatt gedruckt.</p><h4>Papier ist geduldig</h4><p>Was auf Papier nach Administration aussieht, scheitert an der gelebten Wirklichkeit. Berliner Beamte, die formal ihren Posten behalten haben, sabotieren intern: Akten werden verlegt, Fristen verschleppt, Informationen nicht weitergegeben. In Schulen verweigern Lehrerinnen und Lehrer stillschweigend die Umsetzung neuer Lehrpläne. In Krankenhäusern werden Ressourcen so verwaltet, dass die einheimische Bevölkerung profitiert.</p><h4>Die Straße als Barometer</h4><p>Wer durch Berlins Bezirke geht, liest die Stimmung in kleinen Zeichen: Fenster, aus denen keine Flaggen der neuen Macht hängen. Cafés, die kein Besatzungspersonal bedienen. Wandparolen, die über Nacht erscheinen und am nächsten Morgen wieder da sind.</p><div class='fazit'>→ Die Verwaltung funktioniert. Der Widerstand auch. Und letzterer hat den längeren Atem.</div>"
+},
+"wirtschaft-besatzung": {
+  kicker: "Wirtschaft",
+  title: "Wirtschaft unter Besatzung: Die Versorgungslage verschlechtert sich",
+  meta: "21. April 2026 · Wirtschaft · 7 Min. Lesezeit",
+  img: "https://picsum.photos/seed/economy3/800/400",
+  lead: "Lieferketten unterbrochen, Preise steigen, Lager leeren sich. Was wie eine vorübergehende Störung aussah, nimmt die Konturen einer strukturellen Versorgungskrise an.",
+  text: "<p>Die Besatzung hat die deutschen Lieferketten an mehreren Stellen gleichzeitig getroffen. Grenzübergänge, die unter neue Kontrolle gestellt wurden, verlangsamen den Warenverkehr erheblich. Lager stehen still oder halbvoll.</p><h4>Was knapp wird</h4><p>Erste Engpässe betreffen Kraftstoffe, bestimmte Medikamente und elektronische Bauteile. Supermarkte berichten von unregelmäßigen Lieferungen. Besonders betroffen sind ländliche Regionen. Die Preissteigerungen sind noch moderat – aber der Trend ist eindeutig nach oben.</p><h4>Wer profitiert</h4><p>Die Besatzungsmächte versuchen, die Versorgung strategisch zu nutzen: Gebiete mit kooperativer Bevölkerung erhalten bevorzugten Zugang zu Ressourcen, kritische Bezirke werden unter Druck gesetzt. Kurzfristig erzeugt das Anpassung – langfristig vertieft es Ressentiments. Für die Widerstandsstrukturen sind parallele Versorgungsnetze gleichzeitig Belastung und Gelegenheit.</p><div class='fazit'>→ Die Versorgungslage ist ein Machtinstrument – und zugleich eine der größten Schwachstellen der Besetzer.</div>"
+},
+"ziviler-widerstand": {
+  kicker: "Gesellschaft",
+  title: "Ziviler Widerstand: Wie sich Nachbarschaften neu erfinden",
+  meta: "20. April 2026 · Gesellschaft · 9 Min. Lesezeit",
+  img: "https://picsum.photos/seed/society4/800/400",
+  lead: "Geheime Netzwerke, selbst gedruckte Zeitungen, stille Solidarität auf Hinterhöfen und in Kellern. Deutschland hält zusammen – oft unsichtbar, immer hartnäckig.",
+  text: "<p>Es gibt keinen zentralen Befehl und keine große Widerstandsorganisation. Was in den besetzten Teilen Deutschlands passiert, ist organischer, dezentraler und damit schwerer zu fassen als jede strukturierte Opposition: Es sind Nachbarschaften, die sich selbst helfen. Kirchengemeinden, die mehr tun als beten. Sportvereine, deren Treffen einen zweiten Zweck haben.</p><h4>Die Untergrundzeitung als Symbol</h4><p>In mindestens sieben deutschen Städten kursieren inzwischen handgefertigte oder selbst gedruckte Informationsblätter, die unabhängig von den Besatzungsmedien berichten. Sie werden von Hand zu Hand weitergereicht, in Briefkästen gesteckt. Ein Mitarbeiter dieser Blätter, anonym: <em>Es geht nicht darum, Helden zu sein. Es geht darum, dass die Leute nicht vergessen, dass sie eine Gemeinschaft sind.</em></p><h4>Parallelstrukturen des Alltags</h4><p>Lebensmitteltausch zwischen Haushalten. Inoffizielle Apothekennetzwerke. Handwerker, die Reparaturen im Tausch gegen Naturalien erledigen, ohne Papiere zu hinterlassen. Eine Schattenwirtschaft des gegenseitigen Vertrauens. Was das für die Besatzung bedeutet: Sie können Gebäude besetzen. Aber nicht die sozialen Bande einer Gemeinschaft zerstören.</p><div class='fazit'>→ Die eigentliche Stärke Deutschlands liegt in Millionen kleinen Entscheidungen täglich: nicht zu kooperieren, zu teilen, zu schweigen, wo Schweigen Widerstand ist.</div>"
+},
+"kassel-gefecht": {
+  kicker: "Reportage",
+  title: "Feuergefecht bei Kassel – wenn Verbündete zu Feinden werden",
+  meta: "21. April 2026 · Reportage · 10 Min. Lesezeit",
+  img: "https://picsum.photos/seed/kassel5/800/400",
+  lead: "In der Nacht zum 19. April kam es im Raum Kassel zu einem Feuergefecht zwischen luxemburgischen und italienischen Einheiten. Was wie ein Irrtum aussah, war möglicherweise Kalkül.",
+  text: "<p>Kassel liegt genau an der Schnittstelle zwischen der luxemburgischen und der italienischen Besatzungszone – geografisch günstig positioniert, strategisch umstritten.</p><h4>Der Auslöser in der Nacht</h4><p>In der Nacht zum 19. April besetzte eine luxemburgische Sicherungseinheit eine strategisch wichtige Bahnunterführung im Kasseler Norden. Die Unterführung liegt laut gültiger interner Aufteilungsvereinbarung eindeutig in der italienischen Zone. Die anrückenden italienischen Einheiten wurden dort nicht erwartet – und das nicht im freundlichen Sinne. Wer zuerst geschossen hat, ist ungeklärt. Aus mehreren unabhängigen Quellen rekonstruieren wir: Es gab zunächst verbale Konfrontation, dann Warnschüsse, dann gezieltes Feuer. Auf beiden Seiten gibt es Verwundete.</p><h4>Zufall oder Kalkül?</h4><p>Die Unterführung liegt direkt an einer Zufahrt, die für die Versorgung italienischer Einheiten im mitteldeutschen Raum zentral ist. Wer sie kontrolliert, kann den Nachschub verzögern oder unterbinden. Luxemburg hat in den vergangenen Wochen mehrfach ähnliche Irrtümer begangen – stets an strategisch relevanten Punkten.</p><h4>Stimme aus der Bevölkerung</h4><blockquote>Erst besetzen se uns einfach so, als wär'n wir 'ne herrenlose Immobilie. Und jetzt schießen se sich auch noch gegenseitig über'n Haufen – mitten in Kassel. Die kriegen ja nich mal ihren eigenen Laden in den Griff. Vielleicht sollten wir denen mal zeigen, wem das hier eigentlich gehört.</blockquote><div class='fazit'>→ Die entscheidende Frage lautet nicht mehr, ob die Besetzer sich misstrauen. Sie lautet, wann der Konflikt zwischen ihnen offen ausbricht.</div>"
+},
+"besatzung-zerbricht": {
+  kicker: "Analyse",
+  title: "Warum die Besatzungsstruktur von innen zerbricht",
+  meta: "21. April 2026 · Analyse · 6 Min. Lesezeit",
+  img: "https://picsum.photos/seed/kassel5/800/400",
+  lead: "Was wie ein stabiles System aussieht, hat tiefe Risse. Die strukturellen Widersprüche der Doppelbesatzung machen eine langfristige Stabilisierung nahezu unmöglich.",
+  text: "<p>Keine Besatzung hält ewig. Aber manche enden schneller als erwartet – nicht weil der Widerstand sie besiegt, sondern weil die Besetzer an ihren eigenen Widersprüchen scheitern.</p><h4>Zwei Mächte, eine Zone</h4><p>Die Aufteilung Deutschlands in eine luxemburgische und eine italienische Besatzungszone war von Anfang an ein politischer Kompromiss, kein militärisch durchdachter Plan. Die Grenze zwischen beiden Zonen verläuft quer durch Infrastruktur, Versorgungsnetze und Kommunikationssysteme. Jeder Verwaltungsakt, der Zusammenarbeit erfordert, wird zum Verhandlungsprozess. Jede strategische Position, die zwischen den Zonen liegt, ist potenzielle Eskalation.</p><h4>Die Erosion des Vertrauens</h4><p>Interne Berichte beschreiben ein Koordinationsproblem, das sich seit Beginn der Besatzung verschärft. Gemeinsam geplante Operationen werden einseitig abgeändert. Informationen über Widerstandsaktivitäten werden nicht geteilt. Das Feuergefecht bei Kassel ist der bisher drastischste Ausdruck dieser Entwicklung – aber bei weitem nicht der erste Vorfall.</p><div class='fazit'>→ Die Besatzungsstruktur wird nicht durch einen großen Schlag fallen. Sie wird durch tausend kleine Risse mürbe – von innen, von außen, und durch die eigene Dysfunktion.</div>"
+},
+"geruechtekueche": {
+  kicker: "Hintergrund",
+  title: "Gerüchtekuche: Was steckt hinter den Angriffsplänen?",
+  meta: "21. April 2026 · Hintergrund · 7 Min. Lesezeit",
+  img: "https://picsum.photos/seed/opinion6/800/400",
+  lead: "Aus gut informierten Kreisen sickern Details durch, die ein klares Bild ergeben: Die B.E.E.R.-Allianz ist weiter als offiziell kommuniziert. Der Angriff ist nicht geplant – er ist vorbereitet.",
+  text: "<p>Was Gerüchte von Fakten unterscheidet, ist oft nur die Zeit. Der Brennpunkt filtert aus dem Rauschen, was sich durch mehrere unabhängige Quellen deckt – ohne die Identität von Informanten zu gefährden.</p><h4>Die Angriffspläne existieren</h4><p>Mehrere Quellen berichten übereinstimmend: Innerhalb der B.E.E.R.-Allianz liegen bereits vollständig ausgearbeitete Operationspläne vor. Es handelt sich nicht um grobe Skizzen, sondern um konkrete Zeitpläne, Kräftedispositionen und Zuständigkeiten. Was diskutiert wird, ist nicht mehr das Ob, sondern ausschließlich das Wann.</p><h4>Wilhelmshaven: mehr als Handel</h4><p>Ein Hafenarbeiter, der anonym spricht: Das ist nicht normal. Die Frachter kommen nachts, werden unter erhöhter Sicherheit entladen, und keiner darf Fotos machen. Das ist kein Handel. Vorräte für mindestens sechs Monate sollen bereits eingelagert sein.</p><h4>Die Spannungen als Faktor</h4><p>Innerhalb der B.E.E.R.-Allianz gilt das wachsende Misstrauen zwischen Luxemburg und Italien als strategischer Vorteil. Die Timing-Überlegungen berücksichtigen explizit die Tiefe der Spaltung zwischen den Besatzungsmächten. Sollte die Zerrissenheit sich weiter bestätigen, wäre das Zeitfenster für einen Gegenschlag so günstig wie nie.</p><div class='fazit'>→ Was in der Gerüchtekuche siedet, ist oft nur der Vorlauf dessen, was bald Geschichte ist.</div>"
+},
+"einschaetzung": {
+  kicker: "Meinung",
+  title: "Unsere Einschätzung: Das ist erst der Anfang",
+  meta: "21. April 2026 · Kommentar der Redaktion · 4 Min. Lesezeit",
+  img: "https://picsum.photos/seed/opinion6/800/400",
+  lead: "Deutschland wurde in wenigen Tagen neu aufgeteilt. Wer glaubt, das Schlimmste sei vorbei, irrt. Wer glaubt, das Beste komme noch, liegt richtig.",
+  text: "<p>Wir schreiben diese Zeilen aus der Überzeugung, dass Klarheit wichtiger ist als Beruhigung. Die Lage ist ernst. Die Besatzung ist real. Und die kommenden Wochen werden härter, bevor sie besser werden. Aber: Dieses Konstrukt ist nicht stabil. Es war von Anfang an eine Provokation auf Zeit – und die Zeit läuft. Nicht für uns. Für die Besetzer.</p><h4>Was wir wissen</h4><p>Die B.E.E.R.-Allianz ist keine leere Drohung. Die Vorbereitungen sind real, die Ressourcen werden gebündelt. Das Feuergefecht bei Kassel zeigt, dass die Besatzungsmächte ihre eigene Koalition nicht im Griff haben. Und die Bevölkerung hat nicht aufgehört, sich als Gemeinschaft zu begreifen.</p><h4>Was wir nicht wissen</h4><p>Wir wissen nicht, wann genau die Wende kommt. Wir wissen nicht, wie viel noch verlangt wird, bevor sie kommt. Ehrlichkeit bedeutet: diese Unsicherheit aushalten, ohne sich von ihr lähmen zu lassen.</p><blockquote>Besetzt heißt nicht befriedet. Und befriedet heißt nicht besiegt. Deutschland ist besetzt. Es ist nicht besiegt.</blockquote><div class='fazit'>→ Das hier ist Ausgabe 1. Es wird weitere geben – weil es etwas zu berichten gibt, weil der Widerstand lebt.</div>"
+},
+"frontstimme": {
+  kicker: "Frontstimme",
+  title: "Die kriegen ihren Laden nicht in den Griff – vielleicht ist das unsere Chance",
+  meta: "21. April 2026 · Frontstimme · 6 Min. Lesezeit",
+  img: "https://picsum.photos/seed/people7/800/400",
+  lead: "Menschen in besetzten Gebieten sprechen offen – wenn auch anonym. Über Hoffnung, Angst, Alltag unter Besatzung. Und über den Moment, in dem Ohnmacht in Entschlossenheit umschlägt.",
+  text: "<p>Wir haben in den vergangenen Tagen mit Menschen aus verschiedenen besetzten Regionen gesprochen – per verschlüsselter Verbindung, per Brief, über Mittelsmänner. Keiner wollte namentlich genannt werden. Alle wollten, dass ihre Stimme gehört wird.</p><h4>Aus dem Ruhrgebiet, 58 Jahre, Schlosser</h4><blockquote>Erst besetzen se uns einfach so, als wär'n wir 'ne herrenlose Immobilie. Und jetzt schießen se sich auch noch gegenseitig über'n Haufen – mitten in Kassel. Die kriegen ja nich mal ihren eigenen Laden in den Griff. Vielleicht sollten wir denen mal zeigen, wem das hier eigentlich gehört.</blockquote><h4>Aus Berlin-Neukölln, 34 Jahre, Lehrerin</h4><blockquote>Ich unterrichte weiter. Ich sage den Kindern nicht, was die neuen Materialien sagen. Ich sage ihnen, was ich weiß. Was wahr ist. Was war. Solange ich das tun kann, trage ich meinen Teil bei.</blockquote><h4>Aus Köln, 72 Jahre, Rentnerin</h4><blockquote>Ich habe den Krieg nicht erlebt – nur seine Nachfolgen. Aber ich kenne die Geschichten. Wie die Leute durchgehalten haben. Das ist kein Rezept, das ich empfehlen will. Aber es ist ein Beweis, dass Menschen mehr aushalten können, als sie denken.</blockquote><h4>Aus dem Sauerland, 29 Jahre, Bauer</h4><blockquote>Auf dem Land merkt man das anders als in der Stadt. Wir teilen, was wir haben. Mit den Nachbarn, mit denen, die es brauchen. Das machen wir immer so. Besatzung ändert das nicht. Die können Städte einnehmen. Meinen Hof nicht.</blockquote><div class='fazit'>→ Deutschland spricht. Leise, aber klar. Was besetzt wurde, ist ein Land – nicht seine Menschen.</div>"
+}
 };
 
-// Modal logic
-const overlay = document.getElementById('articleOverlay');
-const modal = document.getElementById('articleModal');
-const closeBtn = document.getElementById('articleModalClose');
-
 function openArticle(id) {
-  const a = ARTICLES[id];
-  if (!a) return;
+  var a = ARTICLES[id];
+  if (!a) { console.log('Article not found:', id); return; }
   document.getElementById('articleModalKicker').textContent = a.kicker;
   document.getElementById('articleModalTitle').textContent = a.title;
   document.getElementById('articleModalMeta').textContent = a.meta;
   document.getElementById('articleModalLead').textContent = a.lead;
   document.getElementById('articleModalText').innerHTML = a.text;
-  document.getElementById('articleModalImg').src = a.img;
+  var img = document.getElementById('articleModalImg');
+  img.src = a.img;
+  var overlay = document.getElementById('articleOverlay');
   overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
   overlay.scrollTop = 0;
 }
 
 function closeArticle() {
+  var overlay = document.getElementById('articleOverlay');
   overlay.classList.remove('open');
   document.body.style.overflow = '';
 }
 
-closeBtn.addEventListener('click', closeArticle);
-overlay.addEventListener('click', function(e) {
-  if (e.target === overlay) closeArticle();
-});
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeArticle();
-});
+document.getElementById('articleModalClose').onclick = function() { closeArticle(); };
 
-// Attach click handlers to all data-article elements
-document.querySelectorAll('[data-article]').forEach(el => {
-  el.addEventListener('click', function(e) {
-    e.preventDefault();
-    openArticle(this.getAttribute('data-article'));
-  });
-});
+document.getElementById('articleOverlay').onclick = function(e) {
+  if (e.target === this) closeArticle();
+};
+
+document.onkeydown = function(e) {
+  if (e.key === 'Escape') closeArticle();
+};
+
+var els = document.querySelectorAll('[data-article]');
+for (var i = 0; i < els.length; i++) {
+  (function(el) {
+    el.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openArticle(el.getAttribute('data-article'));
+      return false;
+    };
+  })(els[i]);
+}
+
+})();
 </script>
 </body>
 </html>
